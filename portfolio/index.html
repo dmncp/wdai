@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- poniższy skrypt jedynie służy do pobrania ikonki z fontawesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="up"></div>
+    <header>
+        <img src="img/coding.jpg" alt="">
+        <div id="cover"></div>
+        <nav>
+            <ul>
+                <li>Strona główna</li>
+                <a href="#one"><li>O mnie</li></a>
+                <a href="#two"><li>Projekty</li></a>
+                <a href="#three"><li>Kontakt</li></a>
+            </ul>
+        </nav>
+        <p id="hello">
+            Cześć, <span>jestem Damian.</span> 
+        </p>
+        <div id="buttony">
+            <a href="#one"><button>O mnie</button></a>
+            <button id="cv">Sprawdź CV</button>  
+        </div>
+        
+    </header>
+    <section id="one">
+        <img src="img/zdjecie.jpg" alt="">
+        <div id="opis">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h1>O mnie</h1>
+            <p>Witam, nazywam się Damian Cyper. 
+            Jestem studentem informatyki na Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie. 
+            Tworzeniem stron internetowych zacząłem zajmować się niespełna rok temu. 
+            Od tamtego momentu ciągle powiększam swoją wiedzę w zakresie web developmentu
+            i zdobywam cenne doświadczenie wykonując wiele ciekawych projektów.
+            Jeżeli jesteś zainteresowany współpracą, skontaktuj się ze mną ;)
+            </p>  
+        </div>
+    </section>
+    <!-- <button id="go_home">
+        <i id="arrow" class="fa fa-angle-up" aria-hidden="true"></i>
+    </button> -->
+    <section id="two">
+        <h1>Projekty <br> <span>Najedź na kafelek, żeby zobaczyć krótki opis :)</span></h1>
+        <div>
+            <video width="100%" height="100%" loop autoplay muted>
+                <source src="video/projekt1.mp4" type="video/mp4">
+                <source src="video/projekt1.ogg" type="video/ogg">
+            </video>
+            
+            <div class="wew">
+                <p>Pierwszy z przedstawianych projektów polegał na stworzeniu animacji wsuwania się 
+                   na stronę formularza i opisu. Efekt mojej pracy można zobaczyć po lewej.</p>
+            </div>
+
+            <!-- Pod spodem wersja z galerią zdjęć z rewersem (dostępna poniżej rozdz 1190px) -->
+            <div id="first_card">
+                <div class="tresc">
+                    <img src="img/projekt1.png" alt="">
+                </div>
+                
+                <div class="odwrot">
+                    <p>Pierwszy z przedstawianych projektów polegał na stworzeniu animacji wsuwania się 
+                        na stronę formularza i opisu. Efekt mojej pracy można zobaczyć po lewej.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <video width="100%" height="100%" loop autoplay muted>
+                <source src="video/projekt2.mp4" type="video/mp4">
+                <source src="video/projekt2.ogg" type="video/ogg">
+            </video>
+            <img src="img/projekt2.png" alt="">
+           <div class="wew">
+               <p>Drugi z przedstawionych projektów polegał na stworzeniu trzech kart wycieczek. 
+                   Kart, które obracają się dając ciekawy efekt 3D i pokazują rewers zawierający cenę i opcję rezerwacji.</p>
+           </div> 
+            <!-- Pod spodem wersja z galerią zdjęć z rewersem (dostępna poniżej rozdz 1190px) -->
+            <div id="first_card">
+                <div class="tresc">
+                    <img src="img/projekt2.png" alt="">
+                </div>
+                
+                <div class="odwrot">
+                    <p>Drugi z przedstawionych projektów polegał na stworzeniu trzech kart wycieczek. 
+                        Kart, które obracają się dając ciekawy efekt 3D i pokazują rewers zawierający cenę i opcję rezerwacji.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <video width="100%" height="100%" loop autoplay muted>
+                <source src="video/projekt3.mp4" type="video/mp4">
+                <source src="video/projekt3.ogg" type="video/ogg">
+            </video>
+          <div class="wew">
+              <p>Kolejny projekt miał na celu stworzenie animacji obracających się kółek. Efekt mojej pracy widoczny po lewej.</p>
+          </div>  
+            <!-- Pod spodem wersja z galerią zdjęć z rewersem (dostępna poniżej rozdz 1190px) -->
+            <div id="first_card">
+                <div class="tresc">
+                    <img src="img/projekt3.png" alt="">
+                </div>
+                
+                <div class="odwrot">
+                    <p>Kolejny projekt miał na celu stworzenie animacji obracających się kółek. Efekt mojej pracy widoczny po lewej.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <video width="100%" height="100%" loop autoplay muted>
+                <source src="video/projekt4.mp4" type="video/mp4">
+                <source src="video/projekt4.ogg" type="video/ogg">
+            </video>
+          <div class="wew">
+              <p>Przedostatni już projekt, który przedstawię polegał na stworzeniu galerii zdjęć miast. 
+                  Zdjęcia zachowują się responsywnie, zmieniają swój układ przy zmianie rozdzielczości.</p>
+          </div>  
+            <!-- Pod spodem wersja z galerią zdjęć z rewersem (dostępna poniżej rozdz 1190px) -->
+            <div id="first_card">
+                <div class="tresc">
+                    <img src="img/projekt5.png" alt="">
+                </div>
+                
+                <div class="odwrot">
+                    <p>Przedostatni już projekt, który przedstawię polegał na stworzeniu galerii zdjęć miast. 
+                        Zdjęcia zachowują się responsywnie, zmieniają swój układ przy zmianie rozdzielczości.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <video width="100%" height="100%" loop autoplay muted>
+                <source src="video/projekt5.mp4" type="video/mp4">
+                <source src="video/projekt5.ogg" type="video/ogg">
+            </video>
+           <div class="wew">
+               <p>I ostatni już projekt. Strona przedstawia trzy zdjęcia. Po najechaniu na dowolne zdjęcie, 
+                   znajduje się ono na pierwszym planie. Oprócz tego jest nieco powiększone i obramowane dodatkową obwolutą.</p>
+           </div> 
+            <!-- Pod spodem wersja z galerią zdjęć z rewersem (dostępna poniżej rozdz 1190px) -->
+            <div id="first_card">
+                <div class="tresc">
+                    <img src="img/projekt6.png" alt="">
+                </div>
+                
+                <div class="odwrot">
+                    <p>I ostatni już projekt. Strona przedstawia trzy zdjęcia. Po najechaniu na dowolne zdjęcie, 
+                        znajduje się ono na pierwszym planie. Oprócz tego jest nieco powiększone i obramowane dodatkową obwolutą.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="three">
+        <h1>Kontakt</h1>
+        <h3>Możesz mnie znaleźć na Facebooku i Messengerze, ale jeśli wolisz zrobić to „po staremu” to po prostu napisz do mnie wiadomość.</h3>
+        <form>
+            <input type="text" placeholder="Imię">
+            <input type="text" placeholder="Nazwisko">
+            <input type="email" placeholder="Twój email" required>
+            <textarea id="message" cols="30" rows="10" placeholder="W czym mogę Ci pomóc?" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <footer>
+            <a href="https://www.facebook.com/damian.cyper">
+                <i id="fb" class="fab fa-facebook-f"></i>
+            </a>
+            <p>Polityka prywatności. <br> &copy 2020 Damian Cyper. All rights reserved.</p>
+        </footer>
+    </section>
+    <div id="menu">
+        <a href="#up">
+            <button>
+                <i id="home" class="fa fa-home" aria-hidden="true"></i>
+            </button>  
+        </a>
+        <a href="#one">
+            <button>
+                <i id="user" class="fa fa-user" aria-hidden="true"></i>
+            </button> 
+        </a>
+        <a href="#two">
+            <button>
+                <i id="desktop" class="fa fa-desktop" aria-hidden="true"></i>
+            </button>   
+        </a>
+        <a href="#three">
+            <button>
+                <i id="phone" class="fa fa-phone" aria-hidden="true"></i> 
+            </button>  
+        </a>
+       
+    </div>
+    <div id="go_home">
+        <a href="#up">
+        <button >
+            <i id="arrow" class="fa fa-angle-up" aria-hidden="true"></i>
+        </button>
+        </a>    
+    </div>
+    <nav id="burger">
+        <button id="nav">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <ul>
+            <a href="#up"><li>Strona główna</li></a>
+            <a href="#one"><li>O mnie</li></a>
+            <a href="#two"><li>Projekty</li></a>
+            <a href="#three"><li>Kontakt</li></a>
+        </ul>
+        <div id="click"></div>
+
+    </nav>
+
+
+</body>
+</html>
